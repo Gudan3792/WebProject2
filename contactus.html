@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>㈜에코바이트</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/contactus.css">
+    <!--<script src="/js/swiper.min.js"></script>-->
+    <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    
+</head>
+<body>
+    
+    <div id="header">
+        <div class="header_sec01" id="comment_top">
+            <a id="logo" class="logo logoup" href="index.html"></a>
+
+            <div class="topmenu_area"><!-- 상단 메뉴 수정하는곳 -->
+                <div class="1 category_menu "><a href="about.html">About</a>
+    </div>
+                <div class="2 category_menu "><a href="news.html">News</a>
+    </div>
+                <div class="4 category_menu "><a href="job.html">Job</a>
+    </div>
+                <div class="5 category_menu"><a href="contactus.html">Contact Us</a>
+    </div>
+            </div><!-- //topmenu_area -->
+            <!-- 모바일 메뉴 -->
+            <div class="mobile-menu">
+                <a href="#none" class="mobile-menu__button">
+                    <div class="hamburger" id="hamburgerBtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div><!--<i class="fa fa-bars">|||</i>--></a>
+            </div>
+
+                <div class="mobile-overlay" id="mobileOverlay">
+                    <div class="mobile-overlay__content">
+                    <a href="#none" class="close-btn" id="closeOverlay">&times;</a>
+                    <ul>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="news.html">News</a></li>
+                      <li><a href="job.html">Job</a></li>
+                      <li><a href="contactus.html">Contact Us</a></li>
+                    </ul>
+                </div></div>
+            </div>
+    </div>
+    <div class="contact_main">
+        <div class="contact_title">
+            
+            <form id="contact-form">
+                <h1>CONTACT US</h1>
+                <p>에코바이트에 궁금한 점이 있으신가요? 아래를 통해 문의해 주세요.</p>
+                <p>에코바이트는 고객님의 소중한 의견을 기다립니다.</p>
+                <label>이름 <input type="text" name="name" required></label>
+                <label>회사명 <input type="text" name="company"></label>
+                <label>연락처 <input type="text" name="phone"></label>
+                <label>이메일 <input type="email" name="email" required></label>
+                <label>문의내용<textarea name="message" rows="6" required></textarea></label>
+                <div class="privacy_policy_area">
+                  <h3>개인정보처리방침</h3>
+                  <div class="privacy_policy">
+                    당사는 고객님의 개인정보를 보호하고 , 적절한 서비스를 제공하기 위하여 기본방침을 가지고 정보를 수집하고 있습니다. 문의하신 사항에 대한 답변을 받고자 하시는 경우 , 개인정보취급방침에 동의하셔야 합니다.
+                    <br><h5>1. 개인정보의 수집 및 이용목적</h5>
+                    고객 문의에 대한 답변 제공 및 현황 관리
+                    <br><h5>2. 수집하는 개인정보의 항목</h5>
+                    회사명 , 이름 , 이메일 , 전화번호
+                    <br><h5>3. 개인정보의 보유 .이용기간</h5>
+                    개인정보 수집 및 이용에 관한 동의 후 3년간 개인정보를 보유하고 이후 해당 정보를 지체없이 파기합니다.
+                    <br>단, 법률에 의해 보존의무가 있는 경우에는 법령이 지정한 일정기간 동안 보존합니다 .
+                    <div class="privacy_policy_check">
+                        <label><input class="privacy_radio" type="radio" name="privacy" value="agree" required> 동의함</label>
+                        <label><input class="privacy_radio" type="radio" name="privacy" value="disagree"checked> 동의하지않음</label>
+                      </div>
+                  </div>
+                  
+                </div>
+                <div class="submit_area">
+                    <button class="cancel" type="button" onclick=" location.href='index.html'">취소</button>
+                    <button class="submit" type="button" id="submitBtn">문의하기</button>
+                </div>
+                
+              </form>
+
+        </div>
+        </div>
+    <div class="contect_us">
+
+            <div class="item-left">
+                <h3>CUSTOMER CARE</h3>
+                <p class="customerCare">
+                    <strong>1588-0000</strong><br>월 - 금 09:00 AM ~ 17:00 PM<br>(11:30 PM ~ 12:30 PM 제외)</p>
+            </div>
+            <div class="item-right">
+                <h3>BANK INFO</h3>
+                <p>
+                    OO은행 : 000-000000-00-000 <br>
+                    예금주 : ㈜에코바이트
+                </p>
+            </div>
+
+    <div class="item-center">
+            <h3>COMPANY INFO</h3>
+            <p>
+                COMPANY: ㈜에코바이트<br>
+                OWNER: Gudan<br>
+                ADDRESS: 광주광역시 광산구 월계로170<br>
+                BUSINESS LICENSE: 000-00-00000<br>
+                COMPANY E-MAIL: k_akao@kakao.com
+            </p>
+        </div>
+        
+    </div>
+
+    <div>
+        <p class="copyright">Copyright © 2025 Gudan All right reserved.</p>
+    </div>
+    <script src="js/cont.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+.top_padding{
+    padding-top: 90px;
+}
+form {
+    max-width: 600px;
+    margin: 40px auto;
+  }
+label {
+    display: block;
+    margin-bottom: 10px;
+  }
+input[type="text"], input[type="email"], input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+button {
+    background: #04AA6D;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #028a58;
+  }
+  #contact-form{
+    margin: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  #contact-form h1,#contact-form p{
+    text-align: center;
+  }
+  #contact-form textarea{
+    width: 100%;
+    resize: none;        /* 크기 조절 비활성화 */
+    overflow-y: auto;    /* 내용이 많아지면 세로 스크롤바 표시 */
+    min-height: 165px;   /* 원하는 최소 높이 지정 */
+    max-height: 165px;
+  }
+  .privacy_policy{
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 612px;
+    text-align: left;
+  }
+  .privacy_policy h5{
+    font-size: 14px;
+  }
+  .privacy_policy_check {
+    margin-top: 24px;
+    display: flex;
+    gap: 24px; /* 버튼 사이 간격 조절 */
+    align-items: center; /* 세로 중앙 정렬 */
+  }
+  .submit, .cancel{
+    margin-top: 30px;
+  }
+  .submit_area{
+    display: flex;
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+    gap: 12px;
+  }
+  
+  .cancel{
+    background: #ddddddc0;
+    color: #111;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .cancel:hover {
+    background: #ddd;
+  }
+
+  .contact_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 80%;
+    margin: 80px auto;
+    background-color: ghostwhite;
+    border: none;
+    border-radius: 12px;
+    box-shadow:2px 2px 6px rgba(0,0,0,0.3); /* 그림자 효과 */;
+  }
+
+  .contact_main{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../img/con_back.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;      /* 세로 가운데 정렬 */
+    justify-content: center;  /* 가로 가운데 정렬 */
+  }
